@@ -1,6 +1,5 @@
 FROM centos
 RUN yum install epel-release -y
-COPY apache.sh /root
 COPY index.html /root
 COPY homedecor.html /root
 RUN chmod 755 /root/index.html
