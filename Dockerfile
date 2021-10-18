@@ -7,5 +7,4 @@ RUN chmod 755 /root/homedecor.html
 RUN yum -y install httpd
 RUN mv -f /root/index.html /var/www/html/work
 RUN mv -f /root/homedecor.html /var/www/html/work
-RUN systemctl restart httpd
-RUN systemctl enable httpd
+
