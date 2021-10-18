@@ -1,0 +1,397 @@
+<html>
+    <head>
+        
+        <style>
+                 
+
+           .box{width: 600px;
+           float:right;
+           border:1px solid none;}
+
+           html{
+               scroll-behavior: smooth;
+           }
+
+           .box ul li{
+              width: 120px;
+              float: left;
+              margin: 10px auto;
+              text-align: center;
+              
+           }
+            .box ul li a{text-decoration:none;
+            color:black;
+            }
+   
+            .box ul li:hover{background-color:grey;}
+            .box ul li a:hover{color:crimson;
+            font-size: 20px;
+           }
+   
+            
+            .container{
+                display: grid;
+                grid-template-columns: 100%;
+                padding: 0px;
+                padding-right: 1cm;
+                width: 100%;
+            }
+            section{
+                display:flex;
+                flex-direction: row;
+                width: 100%;
+                padding: 5% 0;
+            }
+            section div{
+                width: 80%;
+                margin:0 auto;
+
+            }   
+            section h2{
+                text-align: center;
+
+
+            }  
+            .cover-section{
+                margin-top:0px;
+                padding:0% 0% 0% 0%;
+
+            }    
+            h1{
+                padding-bottom: 30px;
+                padding-left: 0.5cm;
+                text-align: center;
+                font-size:5vw;
+                letter-spacing: 0.5cm;
+                
+            }   
+            
+            .title-text{
+                width:40%;
+                text-align: center;
+                color: black;
+                margin: auto;
+                padding: 0.20px;
+                animation: fade-in 5s;
+            }
+
+            
+
+            @keyframes fade-in{
+                0%{
+                    opacity: 0;
+                }
+                100%{
+                    opacity: 1;
+                }
+            }
+            
+
+            .box-features{
+                width: 80%;
+                max-height: auto;
+            }
+            .box-features img{
+                width:100%;
+
+            }
+            .box-features.cover-cover-image{
+                animation:fade-in 5s;
+            }
+            .story-section{
+                display: flex;
+                flex-direction: row-reverse;
+                background-color:rgb(19,18,18);
+                color: whitesmoke;
+            }
+            .section-text h2{
+                text-align: center;
+            }
+            .section-text p{
+                text-align: justify;
+                margin:auto 2.5cm;
+                line-height: 1.9cm;
+            }
+            .samples{
+                flex-direction: column;
+                text-align: center;
+                background-color:honeydew;
+                }
+            .featured{
+                width: 90%;
+                display: grid;
+                grid-template-columns: 2fr 2fr 2fr;
+                grid-gap: 4%;
+                margin:20px auto;
+            }
+            .work{
+                width:100%;
+                color:black;
+            }
+            .work img{
+                width: 300px;
+                height: 300px;
+                cursor:pointer;
+                max-height: auto;
+                border-radius: 20px;
+                
+                
+            }
+            .work img:hover{
+                cursor: pointer;
+                transform:translateY(-15px);
+                transition: all ease 0.5s;
+                place-items: 1;
+            }
+
+            h2{
+                font-size: 3.0vw;
+                padding-bottom:15px;
+                text-transform: uppercase;
+                
+            }
+
+            .contact-section{
+                background: black;
+                color: ghostwhite;
+                
+            }
+            .form-box{
+                padding-top: 1cm;
+            }
+
+            form .form-form-entry{
+                display: block;
+                padding:0.8cm 0;
+            }
+
+            .section-text h2{
+                letter-spacing: 5px;
+                padding-left: 40px;
+            }
+            form .txt-box{
+                margin-top:0.3cm;
+                width:100%;
+                padding: 0.7cm 0;
+                border-radius : 2px;
+                border : 2px transparent;
+            }
+            form .btn{
+                text-align: center;
+                background-color:#e6e8e8;
+                color:black;
+                font-weight: 700;
+                letter-spacing: inherit;
+                border:2px solid #eaeaea;
+                box-shadow: 0px 0px 10px 1px #29393e;
+                border-radius: 5px;
+                padding:0.5cm 1cm;
+                font-size: 14px;
+            }
+            .btn:hover{
+                cursor:pointer;
+                background: rgb(32,32,32);
+                color:aliceblue;
+            }
+            .footer-section{
+                display:flex;
+                flex-direction:row-reverse;
+                height:3cm;
+                width: 100%;
+                color:aliceblue;
+                background-color:#1d2c2f;
+                text-transform: uppercase;
+                font-size:14px;
+            }
+            .footer-section div{
+                margin: right 2cm;
+            }
+            .footer-section span{
+                text-align: center;
+                margin-right: 10cm;
+                cursor:pointer;
+            }
+            
+
+   </style>
+   
+   
+   
+    </head>
+    
+    <body>
+        
+        <div class="box">
+        <ul type="none">
+            <li><a href="#LYRA">Lyra</a></li>
+                <li><a href="#Our story">Our story</a></li>
+            <li><a href="#designs">Work log</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </div>
+        
+
+                <main>
+                    <div class="container">
+
+                        
+                        <section id="LYRA"class="cover-section">
+                        <div class="title-text">
+                            <h1>LYRA</h1>
+                            <p>&prcue; We design your home &harrw; With Trendy Design &prcue;</p>
+                            </div>
+                            <div class="box-features">
+                                <img src="image/pic 8.jpeg" alt="" class="cover-image">
+                            </div>
+                        </section>
+
+                        <section id="Our story" class="story-section">
+                            <div class="section-text">
+                                <h2>OUR STORY</h2>
+                                <p>Furnishing your home can be quite ovrhelming at times , at least that's how it was for us.
+                                <br>LYRA was born to help others going through the maze that is interior design.
+                                <br>Designing is a creative and interesting way to adorn home. Its the best opportunity and demands full control of inventory due to everone wants to make their home best.
+                                You also have adequate knowledge about designing and its designing process that comes with different Size and Design ideas.</p>
+                            </div>
+                            <div class="box-features">
+                                <img src="image/today.2.jpeg" alt="">
+                            </div>
+
+                        </section>
+
+                        <section id="designs" class="samples">
+                            <div class="section-text">
+                            <h2>Featured</h2>
+                            <p> Take a look at some of our featured picks that have made editorial debuts</p>
+                            </div>
+                            <div class="featured">
+                                <div class="work">
+                                    <figure>
+                                        <img src="image/pic 3.jpeg" alt="">
+                                        <figcaption>
+                                            <a href="">Dining Table</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                                <div class="work">
+                                    <figure>
+                                        <img src="image/pic 4.jpeg" alt="">
+                                        <figcaption>
+                                            <a href="">Living Room</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="work">
+                                    <figure>
+                                        <img src="image/pic 5.jpeg" alt="">
+                                        <figcaption>
+                                            <a href="">Wardrobe</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                             <div class="work">
+                                    <figure>
+                                        <img src="image/pic 6.jpeg" alt="">
+                                        <figcaption>
+                                            <a href="">Bathroom</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            <div class="work">
+                                    <figure>
+                                        <img src="image/pic 9.jpeg" alt="">
+                                        <figcaption>
+                                            <a href="">Work Area</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            <div class="work">
+                                    <figure>
+                                        <img src="image/pic 2.jpeg" alt="">
+                                        <figcaption>
+                                            <a href="">study table</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </section>
+
+                            <p id="demo"></p>
+<h3>Available Stocks</h3>  
+<script>
+let x = 1000; 
+let y = 99;
+let z = x + y;
+document.getElementById("demo").innerHTML = z;
+</script>
+
+
+                            <section id="contact" class="contact-section">
+                                <div class="section-text">
+                                    <h2>Recive our catalogue</h2>
+                                    <p>We would love to hear from you! <br>To get our monthly catalogue fill 
+                                    the following form with your name and email address.</p>
+                                </div>
+                                <div class="contact-info">
+                                    <div class="form-box">
+                                        <form id="form" class="contact-form">
+                                            <label for="name" class="form-entry">Name<br>
+                                            <input type="name" id="name" type="text" class="text-box" placeholder="&nbsp;&nbsp;
+                                            Harishma" required><br><br>
+                                        </label>
+                                        <label for="email" class="form-entry">Email<br>
+                                            <input type="email" required id="email" type="email" class="text-box" placeholder="&nbsp;&nbsp;
+                                            example@gmail.com" required><br><br>
+                                        </label>
+                                        <label for="message" class="form-entry">Message<br>
+                                            <textarea type="textarea" id="message" name="message" type="text" class="text-box" placeholder="&nbsp;&nbsp;
+                                            Additional message" required></textarea><br><br>
+                                        </label><br>
+                                        <input type="submit" value="submit" id="submit" class="btn">
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </section>
+                        
+
+
+
+
+
+
+                    </div>
+                </main>
+    </body>
+</html>
+
+<?xml version='1.0'?> <xsl:stylesheet version="1.0"      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"> 
+<xsl:template match="/">  
+ <html>   <body> 
+<table width=110% border="1">  
+  <table width=60% border="2" bgcolor="#FDEEF4">   
+ <tr> <h2>ALSO OUR BRANCHES IN</h2>
+<th>S.No</th> <th>Title</th>  <th>Name</th> <th>Place</th>  <th>Contact</th>  </tr>      
+ <xsl:for-each select="CATALOG/CD">      
+<tr> <th>1</th> <td> Home decor&Interior design</td> <td>Lyra Home decor&Interior design</td> <td> Hyderabad</td>  <td> 9870337631</td> </tr>
+<tr> <th>2</th> <td> Home decor&Interior design</td> <td>Interior by design </td> <td> Banglore </td>  <td> 8965412890 </td> </tr>
+<tr> <th>3</th> <td> Home decor&Interior design </td> <td>I-Deal-Lifestyle Home decor&Interior design</td> <td> Chennai </td>  <td> 7655321860 </td> </tr>
+<tr> <th>4</th> <td> Home decor&Interior design </td> <td>Lyra Home decor&Interior design</td> <td> Coimbatore</td>  <td> 8709576123 </td> </tr>
+<tr> <th>5</th> <td> Home decor&Interior design </td> <td> Grant Interior design</td> <td> Udumalpet</td>  <td>7245913240  </td> </tr>
+<tr> <th>6</th> <td> Home decor&Interior design</td> <td> Lyra Home decor&Interior design </td>  <td> Pollachi</td> <td>8760979802</td> </tr>
+
+
+
+
+
+                
+
+
+            
+
+
+
+
+        
+    
+
